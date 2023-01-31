@@ -1,0 +1,22 @@
+@media (max-width: 1200px) {
+    .social-container {
+      display: none;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .social-dropdown {
+      display: none;
+    }
+  }
+
+  .icons {
+    /* filter: invert(75%) sepia(71%) saturate(267%) hue-rotate(2deg) brightness(86%) contrast(84%); */
+    height: 30px;
+    margin: 10px;
+  }
+
+  .social-container {
+    
+    position: end;
+  }

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Libre Baskerville', serif;
+    src: url('./fonts/LibreBaskerville-Regular.ttf') format('truetype');
+    font-weight: normal;
+    style: normal;
+  }
+
+  @font-face {
+    font-family: 'Libre Baskerville', serif;
+    src: url('./fonts/LibreBaskerville-Bold.ttf') format('truetype');
+    font-weight: bold;
+    style: normal;
+  }
+
+@font-face {
+    font-family: 'Libre Baskerville', serif;
+    src: url('./fonts/LibreBaskerville-Italic.ttf') format('truetype');
+    font-weight: normal;
+    style: italic;
+  }
+
+  body {
+    font-family: Baskerville, serif;
+  }
