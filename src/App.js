@@ -10,6 +10,9 @@ import Fade from 'react-reveal/Fade';
 import Stylesheet from './components/Stylesheet';
 import AboutView from './pages/AboutView';
 import Social from './components/Social';
+import ContactView from './pages/ContactView';
+import PreorderView from './pages/PreorderView';
+import NotFound from './pages/NotFound';
 
 
 
@@ -24,7 +27,13 @@ function App() {
 
       <Routes>
         <Route exact path="/" element={<HomeView />}/>
-        <Route  path="/about" element={<AboutView />}/>
+        <Route exact path="/about" element={<AboutView />}/>
+        <Route exact path="/contact" element={<ContactView />}/>
+        <Route exact path="/preorder" element={<PreorderView />}/>
+        <Route exact path="/test" element={<TestView />}/>
+        <Route  path="*" element={<NotFound/>} />
+
+
 
        
       </Routes>

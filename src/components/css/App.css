@@ -5,6 +5,7 @@
 @import './Hero.css';
 @import './About.css';
 @import './Navbar.css';
+@import './contact.css';
 /* @import './csstemplates/custom.scss'; */
 
 
@@ -14,13 +15,17 @@
   --success: #289A82;
   --danger: #D25425;
   --info: #50A6D3;
+  --background: #212f3c;
 }
 
 .largeSpace {
   height: 50vh;
 }
 
-
+body {
+  background-color: var(--background);
+  color: white;
+}
 
 
 
