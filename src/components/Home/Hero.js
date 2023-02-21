@@ -16,7 +16,7 @@ const Hero = () => {
                 
                 <div className="col-lg-6">
                 <h1 className="lh-1 mb-3 font-56 bold">Our Future Babies are Talking</h1>
-                <p className="lead">Two women's journey through life</p>
+                <p className="lead"><em>Transparent in trials, honest in hope</em></p>
                 </div>
                 <div className="col-10 col-sm-8 col-lg-6 d-flex align-items-center container">
                     <img src={heroPicture} className="d-block mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width="800" height="600" loading="lazy"/>

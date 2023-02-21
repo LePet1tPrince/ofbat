@@ -7,8 +7,8 @@ const AboutView = () => {
     return (
       <div>
       <About />
-      <div className='border'></div>
-      <About3/>
+      {/* <div className='border'></div> */}
+      {/* <About3/> */}
 
       </div>
       

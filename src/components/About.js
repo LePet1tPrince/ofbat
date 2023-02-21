@@ -18,8 +18,7 @@ const About = () => {
                 </div>
                 <div className="col-lg-6">
                 {/* <h1 className="lh-1 mb-3 font-56 bold">Our Future Babies are Talking</h1> */}
-                <p className="lead"> This is where Kelly and Viv can introduce themselves. They can talk about how they met each other at university and became best friends and made poetry and had sleepovers and ate food and danced dances and sung songs and party hardied and all the other things that best friends do.
-</p>
+                <p className="lead px-3"> Toronto-born creatives Vivian and Kelly are a poetry power duo and best friends in real life. Both craving creativity amidst degrees at McMaster University, they joined forces in 2016 in pursuit of meaning and redemption amidst the anguish and confusion of their lives and the lives of those they loved. While Kelly may not spend as much time upside down as Vivian, and Vivian may never make sense of Kelly’s machine learning pursuits, they find middle ground in their love for dinner tables bursting at the seams, frothy chai lattes, and exploring nature. They hope their debut poetry book Our Future Babies are Talking will help readers feel understood in their trials and celebrated in their triumphs.</p>
                
                
                 

@@ -22,6 +22,14 @@
   height: 50vh;
 }
 
+@media (max-width: 1000px) {
+  .largeSpace{
+    height: 10vh;
+
+  }
+  
+}
+
 body {
   background-color: var(--background);
   color: white;

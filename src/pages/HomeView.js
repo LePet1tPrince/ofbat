@@ -8,7 +8,7 @@ const HomeView = () => {
     return (
       <div>
       <Hero/>
-      <LargeSpace/>
+      {/* <LargeSpace/> */}
       <Description/>
       </div>
       

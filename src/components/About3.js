@@ -7,22 +7,41 @@ const About3 = () => {
 
 
     return (
-        <div className="fullscreen">
+        <div className="fullscreen mx-3">
             <Fade duration={2000}>
 
 
-            <div className="container col-xxl-8 px-4 py-5">
-            <div className="row flex-lg-row flex-row align-items-center g-5 py-5">
-                <div className="col-10 col-sm-8 col-lg-3 align-contents-center container">
-                <p className="lead"> This is where Viv can introduce themselves. They can talk about how they met each other at university and became best friends and made poetry and had sleepovers and ate food and danced dances and sung songs and party hardied and all the other things that best friends do. - VIVIAN</p>
+            <div className="p-5">
+            <div className="row flex-lg-row flex-row align-items-center py-5">
+                <div className="col-12 col-m-8 col-lg-4 align-contents-center container px-5">
+                <p className="lead fs-5"> Toronto-born creatives Vivian and Kelly are a poetry power duo and best friends in real life. Both craving creativity amidst degrees at McMaster University, they joined forces in 2016 in pursuit of meaning and redemption amidst the anguish and confusion of their lives and the lives of those they loved. While Kelly may not spend as much time upside down as Vivian, and Vivian may never make sense of Kelly’s machine learning pursuits, they find middle ground in their love for dinner tables bursting at the seams, frothy chai lattes, and exploring nature. They hope their debut poetry book Our Future Babies are Talking will help readers feel understood in their trials and celebrated in their triumphs. </p>
                 </div>
-                <div className="col-10 col-sm-8 col-lg-6 align-contents-center container">
-                <img src={bioPicture} className="mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width="800" height="600" loading="lazy"/>
+                <div className="col-10 col-m-8 col-lg-4 align-contents-center container d-flex py-4">
+                <img src={bioPicture} className="mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width="500" height="500" loading="lazy"/>
 
                 </div>
 
-                <div className="col-10 col-sm-8 col-lg-3 align-contents-center container">
-                <p className="lead"> This is where Kelly can introduce themselves. They can talk about how they met each other at university and became best friends and made poetry and had sleepovers and ate food and danced dances and sung songs and party hardied and all the other things that best friends do. -KELLY</p>
+                <div className="col-10 col-m-8 col-lg-4">
+                <p className="lead fs-5 mx-5"> Listen to my poetry <br/>
+                                I’ll only say it once to you<br/>
+                                When you read it carefully<br/>
+                                You’ll catch a fleeting glimpse or two<br/>
+                                Of places that you’ve never seen<br/>
+                                Or only see too clearly<br/>
+                                Of people who have never been<br/>
+                                Or people loved so dearly<br/>
+                                You’ll catch a glimpse of me I’m sure<br/>
+                                Maybe even feel my skin<br/>
+                                Wish sometimes you had a cure<br/>
+                                For places that I’ve been<br/>
+                                But when you think you’ve finished<br/>
+                                All that you can know<br/>
+                                Reread a poem<br/>
+                                Maybe two<br/>
+                                You’ll realize<br/>
+                                This is just<br/>
+                                The Hello<br/>
+                                </p>
 
                 </div>
                 

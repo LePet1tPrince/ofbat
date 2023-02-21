@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className="menu-button-container">
+      <div className="menu-button-container fixed-top">
         <button className="menu-button" onClick={handleShow}>
           <img src={menu} className="menu-button-img m-4"/>
         </button>
