@@ -6,6 +6,8 @@
 @import './About.css';
 @import './Navbar.css';
 @import './contact.css';
+@import './preorder.css';
+@import './reviews.css';
 /* @import './csstemplates/custom.scss'; */
 
 
@@ -30,10 +32,34 @@
   
 }
 
+.blankspace {
+  height: 5vh;
+}
+
 body {
   background-color: var(--background);
   color: white;
 }
 
 
+.z--2 {
+  z-index:-2;
+}
 
+.bg-bright {
+  background-color:#374450!important;
+}
+
+.pill {
+  border-radius: 206px!important;
+}
+
+
+ul {
+  /* text-align: center; */
+  list-style-position: outside;
+}
+
+.bookcover-ratio {
+  aspect-ratio: 0.65!important;
+}

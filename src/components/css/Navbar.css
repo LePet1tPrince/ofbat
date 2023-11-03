@@ -29,8 +29,10 @@ nav {
   }
 
   .social-container {
+    display:flex;
     padding-right: 20px;
-    position: end;
+    position: right!important;
+    float:right;
   }
 
 
@@ -58,3 +60,13 @@ nav {
     }
   }
 
+.navbar-link {
+  text-decoration: none;
+  font-weight: 500;
+
+}
+
+.right-side {
+  position: absolute;
+  right: 0px;
+}

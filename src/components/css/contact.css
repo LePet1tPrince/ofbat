@@ -5,3 +5,8 @@
 .contact-modal {
     background-color: var(--background)!important;
 }
+
+.hover-brighten :hover {
+    /* background-color: #30373e; */
+    background-color: blue!important;
+}

@@ -22,7 +22,7 @@ const About3 = () => {
                 </div>
 
                 <div className="col-10 col-m-8 col-lg-4">
-                <p className="lead fs-5 mx-5"> Listen to my poetry <br/>
+                <p className="fs-4 mx-5"> Listen to my poetry <br/>
                                 I’ll only say it once to you<br/>
                                 When you read it carefully<br/>
                                 You’ll catch a fleeting glimpse or two<br/>

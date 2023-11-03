@@ -1,6 +1,6 @@
 import React from 'react';
 import balloon from '../../images/balloon.jpg';
-import mother from '../../images/mother of adventure_0076.jpg'
+import mother from '../../images/51_inside out.png'
 import Fade from 'react-reveal/Fade';
 import BlankSpace from '../../components/BlankSpace';
 
@@ -13,11 +13,11 @@ export default function Description() {
             <div className="container col-xxl-8 px-4 py-5">
             <div className="row flex-lg-row flex-sm-column-reverse align-items-center g-5 py-5">
                 <div className="col-10 col-sm-8 col-lg-6 container align-items-center">
-                <img src={mother} className="d-block mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width="800" height="600" loading="lazy"/>
+                <img src={mother} className="d-block mx-lg-auto img-fluid rounded-3" alt="Bootstrap Themes" width="800" height="600" loading="lazy"/>
                 </div>
                 <div className="col-lg-6">
                 {/* <h1 className="lh-1 mb-3 font-56 bold">Our Future Babies are Talking</h1> */}
-                <p className="lead">Listen to my poetry <br/>
+                <p className="fs-4 ps-5">Listen to my poetry <br/>
                                 I’ll only say it once to you<br/>
                                 When you read it carefully<br/>
                                 You’ll catch a fleeting glimpse or two<br/>

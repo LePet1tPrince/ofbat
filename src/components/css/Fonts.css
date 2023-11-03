@@ -22,3 +22,28 @@
   body {
     font-family: Baskerville, serif;
   }
+
+  .font-18 {
+    font-size: 36px;
+    z-index: 2;
+  }
+
+  @media (min-width: 1000px) {
+    .text-center-left {
+      text-align: center!important;
+  
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .text-center-left {
+      text-align: left!important;
+  
+    }
+  }
+
+  /* .text-center-left {
+    text-align: left;
+    color: blueviolet;
+  }
+   */

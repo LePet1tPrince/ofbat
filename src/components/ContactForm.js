@@ -44,20 +44,20 @@ const ContactForm = () => {
               <p>Send us a message or email us at OFBATauthors@gmail.com</p>
               <form ref={form} onSubmit={sendEmail}>
                   <div className="mb-3 form-floating">
-                      <input type="text" name="from_name"  class="form-control contact-textbox text-white" id="floatingName" placeholder="Name" required />
+                      <input type="text" name="from_name"  class="form-control bg-bright contact-textbox text-white" id="floatingName" placeholder="Name" required />
                       <label for="floatingInput" className="">Name</label>
                   </div>
                   <div className="mb-3 form-floating">
-                      <input type="email" name="from_email" class="form-control contact-textbox text-white" id="floatingEmail" placeholder="name@example.com" required />
+                      <input type="email" name="from_email" class="form-control bg-bright contact-textbox text-white" id="floatingEmail" placeholder="name@example.com" required />
                       <label for="floatingInput">Email</label>
                   </div>
                   
                   <div className="mb-3 form-floating">
-                      <textarea name="message" className="form-control contact-textbox text-white" id="floatingTextArea" placeholder="What is your biggest bookkeeping issue?" required></textarea>
+                      <textarea name="message" className="form-control bg-bright contact-textbox text-white" id="floatingTextArea" placeholder="What is your biggest bookkeeping issue?" required></textarea>
                       <label for="floatingTextarea">Message</label>
                       
                   </div>
-              <input type="submit" className="btn border border-2 py-2 px-5 rounded-pill text-light fs-3 hover-brighten" value="Send" />
+              <input type="submit" className="btn bg-bright py-2 px-5 pill text-light fs-3 hover-brighten" value="Send" />
               </form>
 
               <Modal 

@@ -91,3 +91,7 @@
     font-weight: bold;
     
 }
+
+.double-space {
+    line-height: 2;
+}
